@@ -2,15 +2,15 @@ extends:
   - eslint:recommended
   - plugin:@typescript-eslint/recommended
   - plugin:react/recommended
-parser: "@typescript-eslint/parser"
+parser: '@typescript-eslint/parser'
 plugins:
-  - "@typescript-eslint"
+  - '@typescript-eslint'
 rules:
   no-shadow: off
-  "@typescript-eslint/no-shadow":
+  '@typescript-eslint/no-shadow':
     - error
   no-use-before-define: off
-  "@typescript-eslint/no-use-before-define":
+  '@typescript-eslint/no-use-before-define':
     - error
   react/jsx-filename-extension:
     - warn
